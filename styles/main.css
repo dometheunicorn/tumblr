@@ -1,0 +1,38 @@
+body {
+	font-size: 250%;
+	margin: 25px;
+	overflow: auto;
+	font-family: 'VT323', sans-serif;
+}
+
+.header {
+	overflow: auto;
+	max-height: 20vh;
+}
+
+.body {
+	overflow: auto;
+	max-height: 70vh;
+}
+
+.credits {
+	overflow: auto;
+	max-height: 10vh;
+	font-size: 50%;
+	text-align: right;
+	position: fixed;
+  bottom: 2px;
+	right: 2px;
+}
+
+h1 {
+  color: purple;
+  text-align: center;
+	font-family: 'Pacifico', sans-serif;
+	margin: 0;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: rgba(220, 75, 150,1);
+}
